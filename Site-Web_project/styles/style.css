@@ -1,5 +1,9 @@
+p {
+  color: black;
+  width: 500px;
+}
 html {
-  font-size: 20px; /* px signifie 'pixels': la taille de base pour la police est désormais 20 pixels de haut  */
+  font-size: 10px; /* px signifie 'pixels': la taille de base pour la police est désormais 10 pixels de haut  */
   font-family: 'Open Sans', sans-serif; /* cela devrait être le reste du résultat obtenu à partir de Google fonts */
 }
 h1 {
@@ -12,21 +16,21 @@ p, li {
   line-height: 2;
   letter-spacing: 1px;
 }
+html {
+  background-color: #00539F;
+}
 body {
   width: 700px;
   margin: 0 auto;
-  background-color:rgb(224, 85, 20);
+  background-color: #FF9500;
   padding: 0 20px 20px 20px;
   border: 5px solid black;
 }
-html {
-  background-color: rgb(15, 128, 226);
-}
 h1 {
   margin: 0;
-  padding 20px 0;
-  color #00539F
-  text-shadow 3px 3px 1px black;
+  padding: 20px 0;    
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
 }
 img {
   display: block;
