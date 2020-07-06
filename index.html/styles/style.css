@@ -41,7 +41,11 @@ footer{
 input{
   background-color: black;
   color: blanchedalmond;
+  font-size: large;
 }
 ::placeholder{
   color: antiquewhite;
+}
+button{
+  font-size: large;
 }
